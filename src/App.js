@@ -39,7 +39,7 @@ class App extends React.Component {
         const images = this.state.imageurl.map( (i) =><Results i={i}/> )
         return (
             <div>
-                <h2>Search for a gif:</h2>
+                <h2>Awesome gifs:</h2>
                 <input type="search" placeholder="Search" onChange={this.handleChange}></input>
                 <input type="submit" onClick={this.search}></input>
                 <br></br>
